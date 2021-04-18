@@ -1,0 +1,37 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+}
+
+.bloc {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloc h2 {
+    font-size: 50px;
+    padding-bottom: 100px;
+    color: #f1f1f1;
+    font-family: Montserrat, sans-serif;
+}
+.b1 {
+    background: rgb(250, 199, 103);
+}
+.b2 {
+    background: lightskyblue;
+}
+.b2 h2 {
+    color: #222;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-30px)
+}
+.b3 {
+    background: tan;
+}

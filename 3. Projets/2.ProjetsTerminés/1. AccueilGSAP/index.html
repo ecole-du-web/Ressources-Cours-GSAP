@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil Animée</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="ressources/barrel.svg" alt="logo château" class="logo barrel" />
+      <div class="container-nav">
+        <a href="#">ACCUEIL</a>
+        <a href="#">LE VIN</a>
+        <a href="#">CONTACT</a>
+      </div>
+      <img src="ressources/leaf.svg" alt="logo feuille" />
+    </nav>
+
+    <div class="home">
+      <div class="overlay"></div>
+      <video autoplay muted loop>
+        <source src="ressources/grappe-video.mp4" type="video/mp4" />
+      </video>
+      <div class="home-content">
+        <h1>Des vignes d'exception.</h1>
+        <div class="middle-line"></div>
+        <img src="ressources/grape.svg" alt="" />
+        <button>DÉCOUVRIR</button>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

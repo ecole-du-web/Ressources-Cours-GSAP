@@ -1,0 +1,35 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #222;
+}
+
+.vertical-slider {
+    width: 400px;
+    height: 400px;
+    /* background: lightblue; */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-slider p {
+    position: absolute;
+    transform: translateY(100px);
+    opacity: 0;
+    visibility: hidden;
+    font-size: 70px;
+    text-align: center;
+    width: 100%;
+    color: #f1f1f1;
+}
+
+
