@@ -37,6 +37,12 @@ h1 span{
     font-size: 40px;
     font-family: Montserrat;
 }
+@media screen and (max-width: 950px){
+    h1 {
+        line-height: 1;
+        text-align: center;
+    }
+}
 .home-mountains img:nth-child(1){
     width: 2000px;
     /* height: 1000px; */
